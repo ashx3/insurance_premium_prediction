@@ -16,7 +16,7 @@ KAGGLE - https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction
 ## Abstract
 The main goal of this project to predict the medical bill expenses that can incur a person based on their health conditions. This can assist a person in concentrating on the health side of their life rather than the ineffective part. Five regression models naming Linear Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression and KNN have been used to compare and contrast the performance of these algorithms. Training dataset was used for training the model and that training model helped to come up with some predictions.Then the predicted amount was compared with actual data to test and verify the model accuracy. Later accuracies of all these models were compared and the best performing model was picked for model deployment.
 
-__## There is rise in demand for Health Care Insurance Premium in the recent years !!__
+## __There is rise in demand for Health Care Insurance Premium in the recent years !!__
 
 ![rise in demand for insurance premium](/images/rising_demand.jpg)
 
