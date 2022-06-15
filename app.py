@@ -10,7 +10,7 @@ st.markdown("<h1 style='text-align: center; color: white;'>Health Insurance Prem
 
 st.write('---')
 
-img = Image.open('/images/app_2.jpg')
+img = Image.open('app/images/app_2.jpg')
 
 col1, col2, col3 = st.columns([1, 3, 1])
 
