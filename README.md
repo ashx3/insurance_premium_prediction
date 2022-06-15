@@ -1,11 +1,11 @@
 # Health Care Insurance Premium Predicion
 
-!(insurance_premium_poster)[/images/insurance_premium_poster.jpg]
+![insurance_premium_poster](/images/insurance_premium_poster.jpg)
 
 ## Context
 Now a days, healthcare firms use personal health data of insurance holders to predict health insurance premium of individuals. The amount of the premium for a health insurance policy depends from person to person, as many factors affect the amount of the premium for a health insurance policy. Let’s say age, a young person is very less likely to have major health problems compared to an older person. Thus, treating an older person will be expensive compared to a young one. That is why an older person is required to pay a high premium compared to a young person. Just like age, many other factors affect the premium for a health insurance policy.
 
-!(insurance_premium_context)[/images/insurance_premium_context.jpg]
+![insurance_premium_context](/images/insurance_premium_context.jpg)
 
 ## Content
 Here, we have created a system that shows the different techniques that are being used in order to estimate the how much amount of insurance premium is required on the basis of individual health situation. The dataset comprises of 1338 records with 7 attributes. The data is in structured format and stored in a CSV file. 
@@ -16,13 +16,13 @@ KAGGLE - https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction
 ## Abstract
 The main goal of this project to predict the medical bill expenses that can incur a person based on their health conditions. This can assist a person in concentrating on the health side of their life rather than the ineffective part. Five regression models naming Linear Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression and KNN have been used to compare and contrast the performance of these algorithms. Training dataset was used for training the model and that training model helped to come up with some predictions.Then the predicted amount was compared with actual data to test and verify the model accuracy. Later accuracies of all these models were compared and the best performing model was picked for model deployment.
 
-### There is rise in demand for Health Care Insurance in the recent years
+__## There is rise in demand for Health Care Insurance Premium in the recent years !!__
 
 ![rise in demand for insurance premium](/images/rising_demand.jpg)
 
-- According to a study by the Peterson Center on Healthcare and the Kaiser Family Foundation (KFF), U.S. healthcare spending rose nearly a trillion dollars from 2009 to 2019, when adjusted for inflation.
-- A recent study reported that U.S. healthcare spending during 2019 was nearly $3.8 trillion, or $11,582 per person. By 2028, these costs are expected to climb to $6.2 trillion—roughly $18,000 per person.
-- According to the American Medical Association (AMA), healthcare costs are rising by about 4.5% a year.
+- According to a study by the Peterson Center on Healthcare and the Kaiser Family Foundation (KFF), __U.S. healthcare spending rose nearly a trillion dollars from 2009 to 2019,__ when adjusted for inflation.
+- A recent study reported that __U.S. healthcare spending during 2019 was nearly $3.8 trillion, or $11,582 per person__. By 2028, these costs are expected to climb to $6.2 trillion—roughly $18,000 per person.
+- According to the American Medical Association (AMA), __healthcare costs are rising by about 4.5% a year.__
 
 ![Investopedia page](/images/rising_cost_insurance.jpg)
 
@@ -59,7 +59,7 @@ For model building, data was splitted into training and testing set and various 
 ##### 5. Model Selection : 
 Tested all the models and using the evaluation metrics i.e. RMSE & R-squared, the best performing model was picked for model deployment.
 
-##### 6. Webpage &Deployment : 
+##### 6. Web Application & Deployment : 
 Created a web application using streamlit API that takes all the necessary inputs from the user & shows the output. Then deployed project on the Heroku Platform.
 
 ## Conclusion
@@ -82,4 +82,4 @@ streamlit run app.py
 
 __This is how our Streamlit Application looks:__
 
-![streamlitapp page](/images/app1.jpg)
+![streamlitapp page](/images/app_1.jpg)
