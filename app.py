@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 import pandas as pd
 import numpy as np
 import pickle
@@ -9,19 +8,6 @@ st.set_page_config(page_title = 'Insurance Premium Prediction App', page_icon = 
 st.markdown("<h1 style='text-align: center; color: white;'>Health Insurance Premium Prediction App</h1>", unsafe_allow_html=True)
 
 st.write('---')
-
-img = Image.open('app/images/app_2.jpg')
-
-col1, col2, col3 = st.columns([1, 3, 1])
-
-with col1:
-    st.write("")
-
-with col2:
-    st.image(img, width=600)
-
-with col3:
-    st.write("")
 
 name = st.text_input('Enter your name:')
 

@@ -50,11 +50,11 @@ There are numerical and categorical features are present. Scaling was performed 
 
 ##### 4. Model Building : 
 For model building, data was splitted into training and testing set and various algorithms were used to train the model, namely:<br>
-    ⇥Linear Regression
-    ⇥Decision Tree
- 	⇥Random Forest
- 	⇥Gradient Boosting
- 	⇥KNN
+- Linear Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- KNN
 
 ##### 5. Model Selection : 
 Tested all the models and using the evaluation metrics i.e. RMSE & R-squared, the best performing model was picked for model deployment.
