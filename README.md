@@ -39,16 +39,16 @@ The main objective of the project is to develop an API to predict the medical ex
 - expenses - Individual medical costs billed by health insurance
 
 ## Tasks Performed
-##### 1. Data exploration: 
+### 1. Data exploration: 
 Exploring the dataset using pandas, numpy, matplotlib and seaborn libraries.
 
-##### 2. Exploratory Data Analysis : 
+### 2. Exploratory Data Analysis : 
 Plotted different graphs to get more insights about dependent and independent features.
 
-##### 3. Feature Engineering : 
+### 3. Feature Engineering : 
 There are numerical and categorical features are present. Scaling was performed on numerical data and encoding of categorical data is done.
 
-##### 4. Model Building : 
+### 4. Model Building : 
 For model building, data was splitted into training and testing set and various algorithms were used to train the model, namely:<br>
 - Linear Regression
 - Decision Tree
@@ -56,10 +56,10 @@ For model building, data was splitted into training and testing set and various 
 - Gradient Boosting
 - KNN
 
-##### 5. Model Selection : 
+### 5. Model Selection : 
 Tested all the models and using the evaluation metrics i.e. RMSE & R-squared, the best performing model was picked for model deployment.
 
-##### 6. Web Application & Deployment : 
+### 6. Web Application & Deployment : 
 Created a web application using streamlit API that takes all the necessary inputs from the user & shows the output. Then deployed project on the Heroku Platform.
 
 ## Conclusion
