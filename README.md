@@ -70,7 +70,7 @@ In this repository, we have performed the end to end Exploratory Data Analysis a
 
 ### 🟢 For EDA, please refer to : Insurance_Premium_Prediction_EDA.ipynb
 ### 🟢 For Model Building, please refer to : Insurance_Premium_Prediction_Model Building.ipynb
-### 🟢 For Model Deployment, please enter this link : https://ashx3-insurance-premium-prediction-app-n2yuu7.streamlit.app/
+### 🟢 For Model Deployment, please enter this link : https://ashx3-insurance-premium-prediction.streamlit.app
 
 # How to start and use streamlit?
 
