@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-st.set_page_config(page_title = 'Insurance Premium Prediction App', page_icon = '🏥', layout = 'wide')
+st.set_page_config(page_title = 'Insurance Premium Prediction App', page_icon = '🏥')
 
 st.markdown("<h1 style='text-align: center; color: white;'>Health Insurance Premium Prediction App</h1>", unsafe_allow_html=True)
 
