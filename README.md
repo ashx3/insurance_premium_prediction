@@ -1,4 +1,4 @@
-# Health Care Insurance Premium Predicion
+# Health Care Insurance Premium Prediction
 
 ![insurance_premium_poster](/images/insurance_premium_poster.jpg)
 
