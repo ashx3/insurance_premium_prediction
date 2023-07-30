@@ -3,18 +3,18 @@
 ![insurance_premium_poster](/images/insurance_premium_poster.jpg)
 
 ## Context
-Now a days, healthcare firms use personal health data of insurance holders to predict health insurance premium of individuals. The amount of the premium for a health insurance policy depends from person to person, as many factors affect the amount of the premium for a health insurance policy. Let’s say age, a young person is very less likely to have major health problems compared to an older person. Thus, treating an older person will be expensive compared to a young one. That is why an older person is required to pay a high premium compared to a young person. Just like age, many other factors affect the premium for a health insurance policy.
+Now a days,  healthcare firms utilize personal health data of insurance holders to predict individual health insurance premiums. The premium amount varies from person to person, as numerous factors influence the cost of a health insurance policy. For instance, age plays a significant role, where younger individuals are less likely to have major health problems compared to older ones, leading to higher treatment expenses for older individuals. Consequently, older individuals are required to pay higher premiums than younger ones. Apart from age, several other factors also impact health insurance premiums.
 
 ![insurance_premium_context](/images/insurance_premium_context.jpg)
 
 ## Content
-Here, we have created a system that shows the different techniques that are being used in order to estimate the how much amount of insurance premium is required on the basis of individual health situation. The dataset comprises of 1338 records with 7 attributes. The data is in structured format and stored in a CSV file. 
+We have developed a comprehensive system that utilizes various techniques to estimate the required amount of insurance premium based on individual health situations. The dataset consists of 1338 records with 7 attributes, and the data is stored in a structured format within a CSV file.
 
 #### Data Source
 KAGGLE - https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction
 
 ## Abstract
-The main goal of this project to predict the medical bill expenses that can incur a person based on their health conditions. This can assist a person in concentrating on the health side of their life rather than the ineffective part. Five regression models naming Linear Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression and KNN have been used to compare and contrast the performance of these algorithms. Training dataset was used for training the model and that training model helped to come up with some predictions.Then the predicted amount was compared with actual data to test and verify the model accuracy. Later accuracies of all these models were compared and the best performing model was picked for model deployment.
+This project aims to predict an individual's medical bill expenses based on their health conditions, providing them with the ability to focus on their well-being without the burden of financial worries. We evaluated the performance of five regression models, namely Linear Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression, and KNN, to identify the most effective one. The models were trained using a comprehensive dataset, enabling accurate predictions. Comparison with actual data verified the model's accuracy, and the best-performing model was selected for deployment. This approach ensures a reliable and efficient solution for predicting medical bill expenses.
 
 ## __There is rise in demand for Health Care Insurance Premium in the recent years !!__
 
@@ -27,7 +27,7 @@ The main goal of this project to predict the medical bill expenses that can incu
 ![Investopedia page](/images/rising_cost_insurance.jpg)
 
 ## Objective
-The main objective of the project is to develop an API to predict the medical expenses for people on the basis of their health information. Machine learning based regression model is used for predicting above mentioned cases on the input data. The solution proposed here will help in estimating the premium of insurance based on people's health data.
+The primary objective of this project is to create an application that predicts medical expenses for individuals based on their health information. This prediction is achieved using machine learning-based regression models on input data. The proposed solution aims to estimate insurance premiums based on people's health data, providing valuable insights for insurance companies and individuals.
 
 ## Attribute Information
 - age - Insurance holder's age in years
@@ -40,16 +40,16 @@ The main objective of the project is to develop an API to predict the medical ex
 
 ## Tasks Performed
 ### 1. Data exploration: 
-Exploring the dataset using pandas, numpy, matplotlib and seaborn libraries.
+Explored the dataset using Python libraries such as pandas, numpy, matplotlib, and seaborn to gain insights into the data.
 
 ### 2. Exploratory Data Analysis : 
-Plotted different graphs to get more insights about dependent and independent features.
+Conducted EDA by plotting various graphs to better understand the relationships between dependent and independent features.
 
 ### 3. Feature Engineering : 
-There are numerical and categorical features are present. Scaling was performed on numerical data and encoding of categorical data is done.
+Performed feature engineering, including scaling numerical data and encoding categorical data to prepare it for model building.
 
 ### 4. Model Building : 
-For model building, data was splitted into training and testing set and various algorithms were used to train the model, namely:<br>
+Divided the data into training and testing sets and used multiple algorithms for model training, including:<br>
 - Linear Regression
 - Decision Tree
 - Random Forest
@@ -57,20 +57,25 @@ For model building, data was splitted into training and testing set and various 
 - KNN
 
 ### 5. Model Selection : 
-Tested all the models and using the evaluation metrics i.e. RMSE & R-squared, the best performing model was picked for model deployment.
+Evaluated all the models using performance metrics such as Root Mean Squared Error (RMSE) and R-squared, and selected the best-performing model for deployment.
 
 ### 6. Web Application & Deployment : 
-Created a web application using streamlit API that takes all the necessary inputs from the user & shows the output. Then deployed project on the Heroku Platform.
+Developed a web application using the Streamlit API to take user inputs and display the predicted output.
 
 ## Conclusion
-This system shows us that the different techniques that are used in order to estimate the how much amount of premium required on the basis of individual health situation. It shows how a smoker and non-smokers are affecting the amount of premium, also significant differences between male and female expenses. After using different regressors for prediction, Gradient Boosting turned out to be best working model for this problem in terms of the accuracy. Our predictions help user to know how much amount of medical expenses need to be paid if they were to buy an insurance premium and also helps the healthcare organizations to charge insurance premium on basis of their current health situation.
+The system demonstrates the utilization of various techniques to estimate the premium amount based on an individual's health condition. It evaluates the impact of factors such as smoking habits and gender on the premium amount. By employing different regression models for prediction, Gradient Boosting emerged as the most accurate model for this task. Our predictions provide users with insights into the expected medical expenses required for purchasing insurance premium and also assist healthcare organizations in determining insurance charges based on an individual's current health condition. This solution aims to offer transparency and informed decision-making for both individuals and healthcare providers in the insurance domain.
 
 # Helper
-In this repository, we have performed the end to end Exploratory Data Analysis and identified the characteristics of the insurance holders, trained the model using different regression models and then picking the model with good accuracy. Later on, we have created a web application using streamlit API that takes all the necessary inputs from the user & shows the output. And then deploying the project on the Heroku Platform.
+This project consists of three main components(jupyter notebooks):
 
-### 🟢 For EDA, please refer to : Insurance_Premium_Prediction_EDA.ipynb
-### 🟢 For Model Building, please refer to : Insurance_Premium_Prediction_Model Building.ipynb
-### 🟢 For Model Deployment, please enter this link : https://ashx3-insurance-premium-prediction.streamlit.app
+### 🟢 Exploratory Data Analysis (EDA):
+The notebook __"Insurance_Premium_Prediction_EDA.ipynb"__ contains the code for exploring the dataset using libraries like pandas, numpy, matplotlib, and seaborn. Various graphs and visualizations have been plotted to gain insights into the dependent and independent features.
+### 🟢 Model Building:
+In the notebook __"Insurance_Premium_Prediction_Model Building.ipynb"__ different regression models including Linear Regression, Decision Tree, Random Forest, Gradient Boosting, and KNN, have been trained on the data. The notebook demonstrates the process of data preprocessing, feature engineering, model training, and evaluation using metrics such as RMSE and R-squared. The best-performing model is selected for further use.
+### 🟢 Model Deployment:
+The project is deployed as a web application using the streamlit API. You can access the application by visiting the link: __https://ashx3-insurance-premium-prediction.streamlit.app__ The web application allows users to input relevant information and obtain predictions on the required medical expenses and insurance premium based on their health data.
+
+This project offers a complete data science workflow, from initial data exploration to model training and ultimately presenting predictions through an intuitive web application.
 
 # How to start and use streamlit?
 
