@@ -13,12 +13,12 @@ name = st.text_input('Enter your name:')
 
 st.subheader(f'Hi {name}')
 
-st.markdown(f'''The Insurance Premium Prediction App can used to predict an estimate of medical expenses that can incur 
-    based on their attributes and health conditions. This can assist a person in concentrating on the health side of their life 
-    rather than the ineffective part. Insurance policies are being charged based on the person's age and medical conditions.
-    To use the app, the user has to select the relevant options below to generate results. The generated results are predicted by the model
-    which is already trained with the data of past insurance holders with their medical conditions. After entering the information,
-    the app generates an estimate of the medical expenses that the user will incur.''')
+st.markdown(f'''The Insurance Premium Prediction App offers the ability to estimate potential medical expenses, considering an
+             individual's attributes and health status. This empowers users to focus on their health while minimizing inefficiencies. 
+            Insurance policy charges are determined by age and medical conditions.
+            To utilize the app, users select pertinent options to generate outcomes. These results stem from a trained model using 
+            historical data from past insurance holders, considering their health conditions. Upon inputting information, the app 
+            provides an estimate of the user's prospective medical expenses.''')
 
 # inputs
 sex = st.selectbox("What is your gender?", ('male', 'female'))
